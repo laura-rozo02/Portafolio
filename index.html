@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Laura</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/profile.jpg" alt="">
+            </div>
+            <h1>Laura Rozo</h1>
+            <h2>Ingeniero de Sistemas - Diseñadora UI/UX</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/laura-sofia-rozo-rodriguez-/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p class="text-curriculum"><span>Hola, soy Laura Rozo.</span> Ingeniera de Sistemas de la Pontificia Universidad Javeriana, con un profundo interés en actividades que requieren creatividad e innovación para resolver problemas mediante el diseño e implementación de software. Mis fortalezas radican en analizar problemas para generar múltiples alternativas de solución y convertirlas en productos tangibles. Me especializo en diseño de experiencia de usuario (UX/UI) y análisis de datos, con un enfoque en capturar y diseñar requisitos para sistemas de gestión de software e información.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02-01-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 317 2917613
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            laurasofiarr@gmail.com
+                        </li>
+                        <li>
+                            <strong>Profesión</strong>
+                            <span>Ingeniera de Sistemas</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>PINTURA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-kitchen-set"></i>
+                            <span>COCINA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a class="link-decoration" href="/cv/Laura_Rozo_Resume_en.pdf" download="Laura_Rozo_Resume_en.pdf">
+                <button>
+                    Descargar CV <a class="fa-solid fa-download"></a>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <span class="casa">Pontificia Universidad Javeriana</span>
+                        <span class="fecha">Jun 2019 - Mar 2024</span>
+                        <p class="text-curriculum">Cursos: Sistemas de Información, Creación de Empresa a Base Tecnológica, Proyecto de Innovación en TI, Arquitectura de Software, Inteligencia Artificial, Programación Orientada a Objetos, Análisis de Algoritmos, Desarrollo Web, Computación Móvil, Estructuras de Datos, Análitica de Datos, Redes, Fundamentos de Ingeniería de Software </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Ingeniero de Sistemas Pasante </h4>
+                        <span class="casa">OpenText</span>
+                        <span class="fecha">Mar 2023 - Sep 2023</span>
+                        <p class="text-curriculum">He acumulado una amplia experiencia en tres areas distintos: consultoría, soporte y preventa. En el ámbito de la consultoría, mi experiencia radica en la implantación de la solución UCMDB, una herramienta avanzada diseñada para la gestión unificada de la configuración. En particular, desempeñé un papel fundamental en el apoyo a un proyecto de alto impacto en Walmart México, donde mis esfuerzos me valieron la certificación en la aplicación de este producto. Dentro del área de soporte, contribuí significativamente a un proyecto de gestión de identidades, asegurando la ejecución fluida de las tareas operativas. Mis responsabilidades se extendieron a atender activamente errores de solución y problemas específicos, demostrando un compromiso por mantener un entorno operativo robusto y libre de errores. En el área de preventa, mi atención se centró en el aprovechamiento de las soluciones UFT One y Mobile con fines de prueba. Mi competencia en estas áreas fue reconocida formalmente con certificaciones de producto. Tuve contacto directo con los clientes, mostré las capacidades de estas soluciones en múltiples reuniones, contribuyendo sustancialmente al éxito de varias iniciativas de ventas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Consultor ITOM Junior</h4>
+                        <span class="casa">OpenText</span>
+                        <span class="fecha">Sep 2023 - Presente</span>
+                        <p class="text-curriculum">Actualmente participo activamente en proyectos relacionados con monitoreo e infraestructura de TI, colaborando con clientes destacados como Walmart México, Procuraduría General de la República, Banco de Occidente, entre otros. Mi participación se extiende a integraciones e instalaciones de soluciones de la empresa, donde he jugado un papel clave en la documentación de diversos procesos realizados por consultores para estos clientes. Además, empleo metodologías ITIL 4 en todas estas actividades, asegurando un enfoque estructurado y de mejores prácticas en la ejecución de proyectos. En concreto, me centro en el portafolio de soluciones ITOM (gestión de operaciones de TI), contribuyendo a la prestación eficiente y racionalizada de servicios de TI para los clientes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a class="link-decoration" href="https://www.figma.com/file/YAYZ2Avfbs8iZi7Vn29dLG/MockUps?type=design&node-id=0-1&mode=design&t=WaPqbq1UuBNJpiWw-0">
+                        <img src="img/img1.jpeg" alt="">
+                        <div class="overlay">
+                            <h3>Mama Care</h3>
+                            <p>App Móvil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a class="link-decoration" href="https://www.figma.com/file/os0Wd9bC5rQTPaH0MyoGeu/Proyecto-JaveMovers?type=design&node-id=0-1&mode=design&t=M2uIQhf1XpnIAMx1-0">
+                        <img src="img/img2.jpeg" alt="">
+                        <div class="overlay">
+                            <h3>JaveMovers</h3>
+                            <p>App Móvil</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a class="link-decoration" href="https://www.figma.com/file/0t0kFKVjOcJ3NAwygMWLP0/Proyecto-Curso-UX%2FUI?type=design&mode=design&t=QowOQxKmrVvCAhgH-0">
+                        <img src="img/img3.jpeg" alt="">
+                        <div class="overlay">
+                            <h3>Con la Energía de la Luna</h3>
+                            <p>Ecommerce</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/laura-sofia-rozo-rodriguez-/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
