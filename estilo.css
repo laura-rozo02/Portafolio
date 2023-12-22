@@ -64,12 +64,12 @@ html{
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin: auto;
     text-align: center;
     border-radius: 40px;
 }
