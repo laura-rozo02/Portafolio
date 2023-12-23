@@ -63,8 +63,10 @@ html{
     height: 100vh;
     color: #fff;
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
+    padding: 500px;
 }
 .inicio .contenido-banner{
     padding: 20px;
